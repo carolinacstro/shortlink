@@ -1,0 +1,10 @@
+<h1>Encurtador de URL</h1>
+
+<%= form_for @link do |form| %>
+  <%= form.url_field :original_url %>
+  <%= form.submit "create link" %>
+<% end %>
+
+<div id="short-link">
+  
+</div>

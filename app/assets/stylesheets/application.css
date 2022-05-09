@@ -1,0 +1,48 @@
+form {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    color: #14121E;
+    font-family: 'Poppins';
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+input[type="url" i] {
+    width: 500px;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+input[type="submit" i] {
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    background-color: #EDC1BA;
+    border: none;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+input[type="submit" i]:hover {
+    color: #ffffff;
+    background-color: #4C384A;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins';
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
